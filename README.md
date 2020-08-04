@@ -30,10 +30,10 @@
 
 
 ### 이벤트 도출
-![image](https://github.com/yslim83/git-test/blob/master/eventstorming_team_cmd_evt.png)
+![image](https://github.com/yslim83/git-test/blob/master/report_images_1/eventstorming_team_cmd_evt.png)
 
 ### 어그리게잇과 바운디드 컨텍스트로 묶기
-![image](https://github.com/yslim83/git-test/blob/master/eventstorming_team_aggr_bc.png)
+![image](https://github.com/yslim83/git-test/blob/master/report_images_1/eventstorming_team_aggr_bc.png)
 
     - 주문, 배송, 재고와 연결된 command 와 event 들에 의하여 트랜잭션이 유지되어야 하는 단위끼리 묶어줌
 
@@ -44,7 +44,9 @@
 
 ### 폴리시 부착 
 
-![image](https://github.com/yslim83/git-test/blob/master/eventstorming_team_policy.png)
+![image](https://github.com/yslim83/git-test/blob/master/report_images_1/eventstorming_team_policy.png)
+
+    - 재고의 event를 삭제
 
 ### 컨텍스트 매핑 (점선은 Pub/Sub, 실선은 Req/Resp)
 
